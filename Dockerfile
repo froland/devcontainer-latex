@@ -17,3 +17,6 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
         texlive-pstricks \
         texlive-science \
     && rm -rf /var/lib/apt/lists/*
+COPY .AMC.d /home/vscode/.AMC.d
+RUN chown -R vscode:vscode /home/vscode/.AMC.d
+ENTRYPOINT ["/usr/bin/auto-multiple-choice"]
