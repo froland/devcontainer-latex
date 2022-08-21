@@ -6,6 +6,8 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
         auto-multiple-choice \
         chktex \
         graphicsmagick \
+        libopenoffice-oodoc-perl \
+        libreoffice-calc \
         latexmk \
         texlive \
         texlive-extra-utils \
