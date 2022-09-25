@@ -19,8 +19,8 @@
   <bw_threshold>0.6</bw_threshold>
   <checklayout_window_size>940x800+2677+140</checklayout_window_size>
   <conserve_taille>1</conserve_taille>
-  <csv_name_headers></csv_name_headers>
-  <csv_surname_headers></csv_surname_headers>
+  <csv_name_headers>Prénom</csv_name_headers>
+  <csv_surname_headers>Nom</csv_surname_headers>
   <csv_viewer>code</csv_viewer>
   <defaut_annote_rtl></defaut_annote_rtl>
   <defaut_encodage_csv>UTF-8</defaut_encodage_csv>
@@ -91,9 +91,9 @@ Regards.</df_subjectemail_email_text>
   </options_impression>
   <pdf_viewer>code</pdf_viewer>
   <preferences_window_size></preferences_window_size>
-  <prepare_catalog>1</prepare_catalog>
-  <prepare_indiv_solution>1</prepare_indiv_solution>
-  <prepare_solution>1</prepare_solution>
+  <prepare_catalog></prepare_catalog>
+  <prepare_indiv_solution></prepare_indiv_solution>
+  <prepare_solution></prepare_solution>
   <print_command_pdf>cupsdoprint %f</print_command_pdf>
   <print_extract_with>gs</print_extract_with>
   <printer_useful_options>Staple Stapling StapleLocation StapleSet StapleOption</printer_useful_options>
