@@ -1,13 +1,10 @@
-ARG VARIANT=bullseye
+ARG VARIANT=jammy
 FROM mcr.microsoft.com/vscode/devcontainers/base:${VARIANT}
 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends \
-        auto-multiple-choice \
         chktex \
         graphicsmagick \
-        libopenoffice-oodoc-perl \
-        libreoffice-calc \
         latexmk \
         texlive \
         texlive-extra-utils \
@@ -19,6 +16,4 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
         texlive-pstricks \
         texlive-science \
     && rm -rf /var/lib/apt/lists/*
-COPY .AMC.d /home/vscode/.AMC.d
-RUN chown -R vscode:vscode /home/vscode/.AMC.d
-ENTRYPOINT ["/usr/bin/auto-multiple-choice"]
+ENTRYPOINT ["/usr/bin/zsh"]
