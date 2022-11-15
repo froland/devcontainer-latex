@@ -6,6 +6,8 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
         chktex \
         graphicsmagick \
         latexmk \
+        libyaml-tiny-perl \
+        libfile-homedir-perl \
         texlive \
         texlive-extra-utils \
         texlive-fonts-extra \
