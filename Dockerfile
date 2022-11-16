@@ -10,6 +10,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
         libyaml-tiny-perl \
         libfile-homedir-perl \
         texlive \
+        texlive-bibtex-extra \
         texlive-extra-utils \
         texlive-fonts-extra \
         texlive-fonts-extra-links \
