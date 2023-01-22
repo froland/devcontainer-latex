@@ -18,6 +18,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
         texlive-latex-extra \
         texlive-luatex \
         texlive-pstricks \
+        texlive-publishers \
         texlive-science \
     && rm -rf /var/lib/apt/lists/*
 ENTRYPOINT ["/usr/bin/zsh"]
